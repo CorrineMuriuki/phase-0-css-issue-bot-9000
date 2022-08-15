@@ -1,5 +1,5 @@
 body {
-  background-color: pink;
+  background: pink;
 }
 
 h1 {
@@ -12,7 +12,10 @@ h2 {
   font-weight: normal;
   font-style: italic;
 }
-
+.completed {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 12px;
+}
 #tasks .completed {
   background: #ccc;
   text-decoration: underline;
